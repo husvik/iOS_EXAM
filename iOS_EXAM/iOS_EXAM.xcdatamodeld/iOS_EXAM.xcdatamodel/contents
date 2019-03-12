@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CoreCharacter" representedClassName="CoreCharacter" syncable="YES" codeGenerationType="category">
+        <attribute name="characterAllMovieTitles" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="characterEpisode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="characterMovie" optional="YES" attributeType="Transformable" customClassName="[String]" syncable="YES"/>
+        <attribute name="characterName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="characterUrl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CoreMovie" representedClassName="CoreMovie" syncable="YES" codeGenerationType="category">
+        <attribute name="movieCharacterUrls" optional="YES" attributeType="Transformable" customClassName="[String]" syncable="YES"/>
+        <attribute name="movieDirector" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieEpisode" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="movieReleaseDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieUrl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CoreMovie" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="CoreCharacter" positionX="-54" positionY="27" width="128" height="120"/>
+    </elements>
+</model>
